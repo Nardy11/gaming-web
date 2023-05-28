@@ -1,0 +1,76 @@
+body{
+    background-color: #c2d2bd;
+    font-family: 'Source Code Pro', monospace;
+}
+.title{
+    
+    text-align: center;
+    background-color: #f6e9d7;
+    display: block;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+hr{
+   border: solid;
+   border-color: black;
+   border-radius: 50px;
+}
+
+
+.game-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    font-size: 120px ;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+.result{
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.score-player,.score-com{
+    margin-bottom: 30px;
+    background-color:#bae2ae ;
+    margin-top: 30px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+.who-won{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color : #bae2ae ;
+    
+}
+.extra-buttons{
+    display: flex;
+    justify-content:center;
+    margin: 30px;
+}
+.back-home,.play-again{
+    margin:20px;
+    cursor:pointer;
+    outline:none;
+    font-size: 20px;
+}
+.who-won{
+   text-align: center;
+}
